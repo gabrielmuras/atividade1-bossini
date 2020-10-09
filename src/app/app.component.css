@@ -29,7 +29,7 @@ body > #titulo {
 }
 
 .descricao{
-  max-width: 80%;
+  max-width: 100%;
 }
 
 #apresentacao{
@@ -43,7 +43,8 @@ body > #titulo {
   font-size: 25px;
 }
 
-footer.contato {
+#footer {
+  background-color: #568a42;
   text-align: center;
 }
 
@@ -69,54 +70,40 @@ position:relative;
 top:1px;
 }
 
+
 /* ------------------------------------------------------------------------- */
 
 /* Retirado da documentação do bootstrap */
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
 .navbar {
-  background-color: #303C6C;
+  background-color: #99ff99;
 }
 
 .navbar .navbar-brand {
-  color: #d2fdff;
+  color: #000000;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
   color: #ffffff;
 }
 .navbar .navbar-text {
-  color: #d2fdff;
+  color: #000000;
 }
 .navbar .navbar-text a {
-  color: #ffffff;
+  color: #000000;
 }
 .navbar .navbar-text a:hover,
 .navbar .navbar-text a:focus {
-  color: #ffffff;
+  color: #000000;
 }
 .navbar .navbar-nav .nav-link {
-  color: #d2fdff;
+  color: #000000;
   border-radius: .25rem;
   margin: 0 0.25em;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #ffffff;
+  color: #000000;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link:hover,
@@ -124,7 +111,7 @@ top:1px;
 .navbar .navbar-nav .nav-item.show .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #ffffff;
+  color: #000000;
   background-color: #b4dfe6;
 }
 .navbar .navbar-toggle {
@@ -132,20 +119,20 @@ top:1px;
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-  background-color: #b4dfe6;
+  background-color: #000000;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
-  color: #d2fdff;
+  color: #000000;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
   border-color: #d2fdff;
 }
 .navbar .navbar-link {
-  color: #d2fdff;
+  color: #000000;
 }
 .navbar .navbar-link:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 
